@@ -1,7 +1,1 @@
-function sayhello() {
-  return 'Hello World'
-}
-
-let fn = sayHello
-fn()
-sayhello()
+import { compose, pipe } from 'lodash/fp'
